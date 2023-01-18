@@ -1,0 +1,53 @@
+/* 
+.bootcamp-container {
+    border: 1px solid #ddd;
+    margin: .5rem 1rem;
+    padding: 1rem;
+    text-align: left;
+} */
+
+.bootcamp-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bootcamp-accordion {
+  width: auto;
+  align-items: left;
+  text-align: left;
+}
+
+.bootcamp-accordion-item {
+  background-color: #bfab40;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.bootcamp-item-title {
+  cursor: pointer;
+  color: #85662b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bootcamp-item-description {
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.75s cubic-bezier(0, 1, 0, 1);
+}
+.bootcamp-item-description-show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.75s cubic-bezier(1, 0, 1, 0);
+}
+
+/*
+.bootcamp-accordion-item {
+    border: 1px solid #ddd;
+    margin: .5rem 1rem;
+    padding: 1rem;
+    text-align: left;
+} */

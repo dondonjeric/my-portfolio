@@ -1,0 +1,25 @@
+.about-floating-button-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+.about-floating-button-item {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+.about-floating-button-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-floating-button-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
